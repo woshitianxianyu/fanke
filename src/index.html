@@ -5,6 +5,30 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="lib/banner/lunbo.css" />
+    
+     <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+      <script type="text/javascript" src="lib/banner/lunbo.js"></script>
+    <script  type="text/javascript">
+
+      jQuery($=>{
+
+              
+           $('#banner').lunbo({
+             button:true,
+             page:true,
+             type:'fade',
+             width:1200,
+             height:535,
+             src:['images/001.jpg','images/002.jpg','images/003.jpg','images/004.jpg']
+            
+
+           });
+
+      })
+
+
+    </script>
 </head>
 <body>
     <div id="top">
@@ -200,5 +224,25 @@
     <div id="banner">
         
     </div>
+    <div class="v_tuan">
+        <img src="images/v.png" height="53" width="1199" alt="" />
+    </div>
+
+    <div class="more">
+        <img src="images/more.png" height="55" width="1199" alt="" />
+    </div>
+    <div class="t_xvn">
+        <div class="container">
+            <ul >
+                <li><img src="images/12.jpg" height="425" width="267" alt="" /></li>
+                <li><img src="images/3.jpg" alt="" /></li>
+                <li><img src="images/4.jpg" alt="" /></li>
+                <li><img src="images/xb.jpg" alt="" /></li>
+            </ul>    
+            
+        </div>
+    </div>
+
+    
 </body>
 </html>

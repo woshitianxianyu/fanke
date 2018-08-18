@@ -1,0 +1,136 @@
+#top .container .top_t {
+  padding-left: 770px;
+  background: #F7F7F7;
+  font-size: 12px;
+  color: #808080;
+  line-height: 30px;
+}
+
+#top .container .top_t .welcom {
+  display: inline-block;
+  float: left;
+}
+
+#top .container .top_t ul {
+  height: 30px;
+  border-bottom: 0 none;
+}
+
+#top .container .top_t ul li {
+  border-bottom: 0 none;
+  float: left;
+}
+
+#top .container .top_t ul li a {
+  padding-left: 12px;
+  color: #808080;
+}
+
+#top .container .top_t ul li .first {
+  padding-right: 10px;
+  border-right: 1px solid #ccc;
+}
+
+#top .container .top_c {
+  height: 50px;
+  padding-left: 762px;
+  padding-top: 30px;
+}
+
+#top .container .top_c .seach .txt {
+  width: 260px;
+  height: 28px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+#top .container .top_c .seach .btn_search {
+  background: #B81C20;
+  color: #fff;
+  width: 48px;
+  height: 28px;
+}
+
+#top .container .top_c .seach .btn_car {
+  background: #B81C20;
+  color: #fff;
+  width: 107px;
+  height: 28px;
+  margin-left: 10px;
+}
+
+#top .container .top_c ul li {
+  float: left;
+}
+
+#top .container .top_c ul li a {
+  font-size: 12px;
+  padding-left: 10px;
+  color: #808080;
+}
+
+#top .container .nav .logo {
+  width: 232px;
+  height: 85px;
+}
+
+#top .container .nav .tab {
+  padding-top: 30px;
+}
+
+#top .container .nav .tab li {
+  float: left;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+#top .container .nav .tab li a {
+  color: #808080;
+  padding-bottom: 10px;
+  display: block;
+}
+
+#top .container .nav .tab li a span {
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  padding: 0 30px;
+  border-right: 1px solid #ccc;
+}
+
+#top .container .nav .tab li a .first {
+  padding-left: 0;
+}
+
+#top .container .nav .tab li a .last {
+  border-right: 0 none;
+}
+
+#top .container .nav .tab li a:hover span {
+  color: #B71D1F;
+}
+
+#top .container .nav .tab li:hover a {
+  border-bottom: 4px solid #B71D1F;
+}
+
+#top .container .nav .tab li:hover .aa {
+  border-bottom: 0 none;
+}
+
+#top .container .nav .tab li ul {
+  display: none;
+  position: absolute;
+  left: -1px;
+  top: 34px;
+  border: 1px solid #ccc;
+}
+
+#top .container .nav .tab li ul li {
+  text-align: center;
+  padding: 10px 15px 5px 27px;
+}
+
+#top .container .nav .tab li:hover ul {
+  display: block;
+}

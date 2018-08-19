@@ -15,19 +15,19 @@ let sass = require('gulp-sass');
 
 
 //1.创建任务
-gulp.task('compileSass',function(){
+gulp.task('comp',function(){
     //执行任务时，会执行这里的代码
 
    //在此把sass编译成css
    //2.找出sass文件
-   gulp.src('./src/sass/base.scss')  //返回一个文件流
+   gulp.src('./src/sass/*.scss')  //返回一个文件流
 
 
    //编译scss->css
    .pipe(sass({outputStyle:'expanded'}).on('error',sass.logError))   //得到css文件流
 
 
-   //输出到硬盘
+   // //输出到硬盘
    .pipe(gulp.dest('./src/css/'))
 
 })
@@ -35,7 +35,7 @@ gulp.task('compileSass',function(){
 // 自动化编译
 gulp.task('autoSass',function(){
     // 监听文件修改，如果有修改，则执行compileSass任务
-    gulp.watch('./src/sass/*.scss',['compileSass']);
+    gulp.watch('./src/sass/*.scss',['comp']);
 });
 
 

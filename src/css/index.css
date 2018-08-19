@@ -123,7 +123,9 @@
   position: absolute;
   left: -1px;
   top: 34px;
+  background: #FFFFFF;
   border: 1px solid #ccc;
+  z-index: 1;
 }
 
 #top .container .nav .tab li ul li {
@@ -133,4 +135,213 @@
 
 #top .container .nav .tab li:hover ul {
   display: block;
+}
+
+#banner {
+  width: 1200px;
+  height: 535px;
+  margin: 0 auto;
+}
+
+.v_tuan {
+  margin-top: 50px;
+}
+
+.v_tuan img {
+  display: block;
+  margin: 0 auto;
+}
+
+.more {
+  margin-top: 70px;
+}
+
+.more img {
+  display: block;
+  margin: 0 auto;
+}
+
+.t_xvn {
+  margin-top: 50px;
+}
+
+.t_xvn ul li {
+  float: left;
+  padding-right: 30px;
+}
+
+#youxuan {
+  margin-top: 90px;
+}
+
+#youxuan .container .y_title {
+  text-align: center;
+  color: #808080;
+  height: 65px;
+}
+
+#youxuan .container .y_title h2 {
+  font-size: 22px;
+}
+
+#youxuan .container .yall {
+  margin-bottom: 18px;
+}
+
+#youxuan .container .yall .y_left {
+  width: 590px;
+  position: relative;
+}
+
+#youxuan .container .yall .y_left img {
+  display: block;
+}
+
+#youxuan .container .yall .y_left .details {
+  line-height: 75px;
+  border: 1px solid #ccc;
+  border-top: 0 none;
+  padding-left: 10px;
+}
+
+#youxuan .container .yall .y_left .details .one {
+  float: left;
+}
+
+#youxuan .container .yall .y_left .details .two {
+  position: absolute;
+  right: 15px;
+  color: #A10000;
+}
+
+#youxuan .container .yall .y_right {
+  width: 589px;
+  height: 440px;
+}
+
+#youxuan .container .yall .y_right .yy {
+  width: 290px;
+  height: 440px;
+}
+
+#youxuan .container .yall .y_right .yy p {
+  width: 278px;
+  height: 68px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-top: 0 none;
+  line-height: 68px;
+  padding-left: 10px;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+#youxuan .container .yall .y_right .yy p .xin {
+  float: left;
+}
+
+#youxuan .container .yall .y_right .yy p .hui {
+  position: absolute;
+  right: 15px;
+  color: #A10000;
+}
+
+#youxuan .container .yall .y_right .yy .ll {
+  width: 278px;
+  height: 68px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-top: 0 none;
+  line-height: 68px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+#youxuan .container .yall .y_right .yy .ll .one {
+  float: left;
+}
+
+#youxuan .container .yall .y_right .yy .ll .tow {
+  position: absolute;
+  right: 15px;
+  color: #A10000;
+}
+
+#youxuan .container .yall .y_right .yy_r {
+  width: 278px;
+  height: 510px;
+}
+
+#youxuan .container .yall .y_right .yy_r img {
+  margin-left: 8px;
+}
+
+#youxuan .container .yall .y_right .yy_r p {
+  border: 1px solid #ccc;
+  border-top: 0 none;
+  position: relative;
+  width: 260px;
+  margin-left: 15px;
+  line-height: 68px;
+  padding-left: 15px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+#youxuan .container .yall .y_right .yy_r p .one {
+  float: left;
+}
+
+#youxuan .container .yall .y_right .yy_r p .two {
+  position: absolute;
+  right: 15px;
+  color: #A10000;
+}
+
+.xia_main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.xia_main .xia_title {
+  text-align: center;
+  color: #808080;
+  height: 65px;
+}
+
+.xia_main .xia_title h2 {
+  font-size: 22px;
+}
+
+.xia_main ul li {
+  float: left;
+  padding-right: 15px;
+}
+
+.xia_main ul li p {
+  height: 68px;
+  line-height: 68px;
+  border: 1px solid #ccc;
+  border-top: 0 none;
+  padding-left: 10px;
+  padding-right: 8px;
+}
+
+.xia_main ul li p span {
+  float: right;
+  color: #A10000;
+}
+
+.jingpin .container .jp_title {
+  text-align: center;
+  color: #808080;
+  height: 65px;
+}
+
+.jingpin .container .jp_title h2 {
+  font-size: 22px;
+}
+
+.jingpin .container ul li {
+  float: left;
 }

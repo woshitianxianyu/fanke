@@ -299,7 +299,7 @@
 
         li{
             float:left;
-            padding-right:15px;
+            padding-right:20px;
             p{
                 span{float:right;color:#A10000;}
                 height:68px;
@@ -316,7 +316,7 @@
 }
 
 .jingpin{
-         // margin-top:50px;
+        
         .container{
 
             .jp_title{
@@ -326,8 +326,104 @@
                     h2{font-size:22px;}
                 }
             ul{
-                li{float:left;}
+                li{
+                    float:left;
+                    margin:0 22px 28px 0;
+                    display:inline;
+
+                }
+                .last{
+                    margin-right:0;
+                }
+                .ll{
+                    margin-right:0;
+                }
+            }
+        }  
+}
+
+.links{
+    padding-bottom:26px;
+    border-bottom:1px solid #000;
+    .container{
+        border:1px solid #ccc;
+        height:283px;
+        
+
+        ul{ margin:33px 40px 23px;}
+        .server{
+           
+            li{
+                float:left;
+                width:370px;
+                height:138px;
+                border-right:1px solid #ccc;
+                p{
+                    text-align: center;
+                    line-height: 23px;
+                    font-size:14px;
+                    color:#727171;
+                }
+                .k0{
+                     margin:15px auto 30px;
+                }
+                .zaixian{
+                   width:156px;
+                   height:32px;
+                   margin:0 auto;
+                   background:#B81C22;
+                   line-height: 32px;
+                   color:#fff;
+                }
+                .erwei{
+                    margin:0 0 10px;
+                }
             }
         }
-   
+        .regard{
+            li{
+                float:left;
+                background:#F8F8F8;
+                
+                a{
+                    border-right:1px solid #ccc;
+                    font-size:14px;
+                    line-height: 55px;
+                    padding: 0 60px;
+               
+                }
+                .last{
+                    border-right:0 none;
+                }
+            }
+        }
+    }
+    
+}
+.bottom{
+
+    .container{
+        height:161px;
+        
+        padding-top:20px;
+        .foot{
+            margin-bottom:40px;
+            p{
+                text-align: center;
+                font-size:10px;
+                margin-bottom:10px;
+
+            }
+        }
+        .foot_link{
+            
+            margin:0 auto;
+            width:980px;
+            text-align: center;
+            a{
+                margin-right:15px;
+            }
+
+        }
+    }
 }

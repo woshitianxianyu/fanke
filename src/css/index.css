@@ -315,7 +315,7 @@
 
 .xia_main ul li {
   float: left;
-  padding-right: 15px;
+  padding-right: 20px;
 }
 
 .xia_main ul li p {
@@ -344,4 +344,100 @@
 
 .jingpin .container ul li {
   float: left;
+  margin: 0 22px 28px 0;
+  display: inline;
+}
+
+.jingpin .container ul .last {
+  margin-right: 0;
+}
+
+.jingpin .container ul .ll {
+  margin-right: 0;
+}
+
+.links {
+  padding-bottom: 26px;
+  border-bottom: 1px solid #000;
+}
+
+.links .container {
+  border: 1px solid #ccc;
+  height: 283px;
+}
+
+.links .container ul {
+  margin: 33px 40px 23px;
+}
+
+.links .container .server li {
+  float: left;
+  width: 370px;
+  height: 138px;
+  border-right: 1px solid #ccc;
+}
+
+.links .container .server li p {
+  text-align: center;
+  line-height: 23px;
+  font-size: 14px;
+  color: #727171;
+}
+
+.links .container .server li .k0 {
+  margin: 15px auto 30px;
+}
+
+.links .container .server li .zaixian {
+  width: 156px;
+  height: 32px;
+  margin: 0 auto;
+  background: #B81C22;
+  line-height: 32px;
+  color: #fff;
+}
+
+.links .container .server li .erwei {
+  margin: 0 0 10px;
+}
+
+.links .container .regard li {
+  float: left;
+  background: #F8F8F8;
+}
+
+.links .container .regard li a {
+  border-right: 1px solid #ccc;
+  font-size: 14px;
+  line-height: 55px;
+  padding: 0 60px;
+}
+
+.links .container .regard li .last {
+  border-right: 0 none;
+}
+
+.bottom .container {
+  height: 161px;
+  padding-top: 20px;
+}
+
+.bottom .container .foot {
+  margin-bottom: 40px;
+}
+
+.bottom .container .foot p {
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.bottom .container .foot_link {
+  margin: 0 auto;
+  width: 980px;
+  text-align: center;
+}
+
+.bottom .container .foot_link a {
+  margin-right: 15px;
 }

@@ -44,10 +44,10 @@
        //是否添加按钮
     if(obj.button){
         //创建按钮
-        $('<span>').addClass('btnleft').appendTo($banner).text('>').css({
+        $('<span>').addClass('btnleft').appendTo($banner).css({
             left:($banner.outerWidth()-$('.btnleft').outerWidth())
-        });;
-        $('<span>').addClass('btnright').appendTo($banner).text('<')
+        });
+        $('<span>').addClass('btnright').appendTo($banner)
         $left=$('.btnleft');
         $right=$('.btnright');
 
@@ -202,7 +202,7 @@
              if(idx>obj.src.length){
                 idx=1
              }
-             console.log(666)
+            
              for(let i=0;i<obj.src.length;i++){
                 if(i+1===idx){$img.eq(idx-1).fadeIn()}
                 else{$img.eq(i).fadeOut()}
@@ -225,7 +225,7 @@
              if(idx>obj.src.length){
                 idx=1
              }
-             console.log(666)
+             
              for(let i=0;i<obj.src.length;i++){
                 if(i+1===idx){$img.eq(idx-1).fadeIn()}
                 else{$img.eq(i).fadeOut()}

@@ -1,3 +1,6 @@
+
+@import '_var';
+
 /*(1)清除默认样式*/
 
 html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input {
@@ -11,6 +14,8 @@ fieldset, img, input, button {
   margin: 0;
   outline-style: none;
 }
+
+
 
 /*去掉input等聚焦时的蓝色边框*/
 
@@ -108,3 +113,257 @@ s, i, em {
   zoom: 1;
 }
 
+#top .container{
+    .top_t{
+            padding-left:770px;background:#F7F7F7;font-size:12px;color:$topcolor;
+            line-height: 30px;
+
+            .welcom{
+                display:inline-block;
+                float:left;
+            }
+            ul{
+                height:30px;
+                 border-bottom:0 none;
+                
+                li{ border-bottom:0 none;
+                    float:left;
+                    a{
+                        padding-left: 12px;
+                        color:$topcolor;
+                    }
+                    .first{
+                        padding-right:10px;
+                        border-right:1px solid #ccc;
+
+                    }
+             
+                }
+            
+            }
+    }
+
+    .top_c{
+        height:50px;
+        padding-left:762px;
+        padding-top:30px;
+
+        .seach{
+            .txt{
+                width:260px;
+                height:28px;
+                font-size:14px;
+                border:1px solid #ccc;
+
+            }
+            .btn_search{
+                background:#B81C20;
+                color:#fff;
+                width:48px;
+                height:28px;
+            }
+            .btn_car{
+                 background:#B81C20;
+                 color:#fff;
+                 width:107px;
+                 height:28px;
+                 margin-left:10px;
+            }
+        }
+        ul{
+            li{
+                float:left;
+                a{
+                    font-size:12px;
+                    padding-left:10px;
+                    color:$topcolor;
+                }
+            }
+
+        }
+    }
+   .nav{
+
+
+        .logo{
+            width:232px;
+            height:85px;
+        }
+
+        .tab{
+            padding-top:30px;
+            
+            li{
+                float:left;
+                padding-bottom: 10px;
+                position:relative;
+                font-family: "Microsoft YaHei";
+                a{
+
+                    color:$topcolor;
+                     padding-bottom: 10px;display:block;
+                     span{
+
+                        font-size:16px; 
+                        display:block;
+                        width:95px;
+                        height:24px;
+                        text-align: center;
+                        // padding:0 30px;
+                        border-right:1px solid #ccc;
+                       
+                    }
+                    .first{
+                    padding-left:0;
+                   
+                    }
+                    .last{
+                        border-right:0 none;
+                    }
+                  
+                   &:hover span {
+                        color:#B71D1F;
+                       
+                        
+                    }
+                   
+                }
+
+                 &:hover a{
+                         border-bottom:5px solid #B71D1F;
+                    }
+                
+                &:hover .aa{
+                    border-bottom:0 none;
+                }
+
+                ul{
+                    display:none;
+                    position:absolute;
+                    left:-1px;
+                    top:40px;
+                    background:#FFFFFF;
+                    border: 1px solid #ccc;
+                    border-top:0 none;
+                    z-index:1;
+                   
+
+                    li{
+                         text-align: center;
+                         float:left;
+                         width:95px;
+                         line-height: 22px;
+                         padding:0 0 15px;
+                         font-size:16px;
+
+                       
+                         
+                       
+
+                       
+                    }
+                
+
+                }
+                &:hover ul{
+                    display:block;
+                }
+                
+            }
+        }
+
+   }
+
+}
+#banner{
+    width:1200px;
+    height:535px;
+    margin:0 auto;
+}
+.links{
+    padding-bottom:26px;
+    border-bottom:1px solid #000;
+    .container{
+        border:1px solid #ccc;
+        height:283px;
+        
+
+        ul{ margin:33px 40px 23px;}
+        .server{
+           
+            li{
+                float:left;
+                width:370px;
+                height:138px;
+                border-right:1px solid #ccc;
+                p{
+                    text-align: center;
+                    line-height: 23px;
+                    font-size:14px;
+                    color:#727171;
+                }
+                .k0{
+                     margin:15px auto 30px;
+                }
+                .zaixian{
+                   width:156px;
+                   height:32px;
+                   margin:0 auto;
+                   background:#B81C22;
+                   line-height: 32px;
+                   color:#fff;
+                }
+                .erwei{
+                    margin:0 0 10px;
+                }
+            }
+        }
+        .regard{
+            li{
+                float:left;
+                background:#F8F8F8;
+                
+                a{
+                    border-right:1px solid #ccc;
+                    font-size:14px;
+                    line-height: 55px;
+                    padding: 0 60px;
+                    color:#333;
+               
+                }
+                .last{
+                    border-right:0 none;
+                }
+            }
+        }
+    }
+    
+}
+.bottom{
+
+    .container{
+        height:161px;
+        
+        padding-top:20px;
+        .foot{
+            margin-bottom:40px;
+            p{
+                text-align: center;
+                font-size:10px;
+                margin-bottom:10px;
+
+            }
+        }
+        .foot_link{
+            
+            margin:0 auto;
+            width:980px;
+            text-align: center;
+            a{
+                margin-right:15px;
+                color:#333;
+            }
+
+        }
+    }
+}

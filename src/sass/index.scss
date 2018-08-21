@@ -1,160 +1,6 @@
 
 @import '_var';
 
-#top .container{
-    .top_t{
-            padding-left:770px;background:#F7F7F7;font-size:12px;color:$topcolor;
-            line-height: 30px;
-
-            .welcom{
-                display:inline-block;
-                float:left;
-            }
-            ul{
-                height:30px;
-                 border-bottom:0 none;
-                
-                li{ border-bottom:0 none;
-                    float:left;
-                    a{
-                        padding-left: 12px;
-                        color:$topcolor;
-                    }
-                    .first{
-                        padding-right:10px;
-                        border-right:1px solid #ccc;
-
-                    }
-             
-                }
-            
-            }
-    }
-
-    .top_c{
-        height:50px;
-        padding-left:762px;
-        padding-top:30px;
-
-        .seach{
-            .txt{
-                width:260px;
-                height:28px;
-                font-size:14px;
-                border:1px solid #ccc;
-
-            }
-            .btn_search{
-                background:#B81C20;
-                color:#fff;
-                width:48px;
-                height:28px;
-            }
-            .btn_car{
-                 background:#B81C20;
-                 color:#fff;
-                 width:107px;
-                 height:28px;
-                 margin-left:10px;
-            }
-        }
-        ul{
-            li{
-                float:left;
-                a{
-                    font-size:12px;
-                    padding-left:10px;
-                    color:$topcolor;
-                }
-            }
-
-        }
-    }
-   .nav{
-
-
-        .logo{
-            width:232px;
-            height:85px;
-        }
-
-        .tab{
-            padding-top:30px;
-            
-            li{
-                float:left;
-                padding-bottom: 10px;
-                position:relative;
-                a{
-
-                    color:$topcolor;
-                     padding-bottom: 10px;display:block;
-                     span{
-
-                        font-size:16px; 
-                        display:block;
-                        text-align: center;
-                        padding:0 30px;
-                        border-right:1px solid #ccc;
-                       
-                    }
-                    .first{
-                    padding-left:0;
-                   
-                    }
-                    .last{
-                        border-right:0 none;
-                    }
-                  
-                   &:hover span {
-                        color:#B71D1F;
-                       
-                        
-                    }
-                   
-                }
-
-                 &:hover a{
-                         border-bottom:4px solid #B71D1F;
-                    }
-                
-                &:hover .aa{
-                    border-bottom:0 none;
-                }
-
-                ul{
-                    display:none;
-                    position:absolute;
-                    left:-1px;
-                    top:34px;
-                   background:#FFFFFF;
-                    border: 1px solid #ccc;
-                    z-index:1;
-                   
-
-                    li{
-                         text-align: center;
-                         padding:10px 15px 5px 27px;
-                       
-                    }
-                
-
-                }
-                &:hover ul{
-                    display:block;
-                }
-                
-            }
-        }
-
-   }
-
-}
-#banner{
-    width:1200px;
-    height:535px;
-    margin:0 auto;
-}
 .v_tuan{
     margin-top:50px;
     
@@ -342,88 +188,46 @@
         }  
 }
 
-.links{
-    padding-bottom:26px;
-    border-bottom:1px solid #000;
-    .container{
-        border:1px solid #ccc;
-        height:283px;
+.baywindow{
+    width:73px;
+   
+    border:1px solid #b81b22;
+    border-bottom: 0 none;
+    margin-bottom:30px;
+    position:fixed;
+    right:10px;
+    bottom:20px;
+    z-index:10;
+    ul{
         
-
-        ul{ margin:33px 40px 23px;}
-        .server{
-           
-            li{
-                float:left;
-                width:370px;
-                height:138px;
-                border-right:1px solid #ccc;
-                p{
-                    text-align: center;
-                    line-height: 23px;
-                    font-size:14px;
-                    color:#727171;
-                }
-                .k0{
-                     margin:15px auto 30px;
-                }
-                .zaixian{
-                   width:156px;
-                   height:32px;
-                   margin:0 auto;
-                   background:#B81C22;
-                   line-height: 32px;
-                   color:#fff;
-                }
-                .erwei{
-                    margin:0 0 10px;
-                }
-            }
-        }
-        .regard{
-            li{
-                float:left;
-                background:#F8F8F8;
-                
-                a{
-                    border-right:1px solid #ccc;
-                    font-size:14px;
-                    line-height: 55px;
-                    padding: 0 60px;
-               
-                }
-                .last{
-                    border-right:0 none;
-                }
-            }
-        }
-    }
-    
-}
-.bottom{
-
-    .container{
-        height:161px;
-        
-        padding-top:20px;
-        .foot{
-            margin-bottom:40px;
-            p{
-                text-align: center;
-                font-size:10px;
-                margin-bottom:10px;
-
-            }
-        }
-        .foot_link{
+        li{
+            border-bottom: 1px solid #b81b22;
             
-            margin:0 auto;
-            width:980px;
-            text-align: center;
-            a{
-                margin-right:15px;
+            .aa{
+                height:76px;
+                width:73px;
+                display:block;
+                background:url(../images/baywindow.png)no-repeat -1px -1px;
             }
-
+            
+            .a1 {
+                height:76px;
+                width:73px;
+                display:block;
+                background:url(../images/baywindow.png)no-repeat -1px -78px;
+            }
+            .a2{
+                 height:49px;
+                width:73px;
+                display:block;
+                background:url(../images/baywindow.png)no-repeat -1px -156px;
+            }
+        
         }
+        
+       li:last-child  {
+            border-bottom: 0 none;
+       }
+        
     }
 }

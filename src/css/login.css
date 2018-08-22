@@ -1,0 +1,158 @@
+.x_center .container {
+  border-bottom: 1px solid #333;
+}
+
+.x_center .container .head {
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+}
+
+.x_center .container .head .logo {
+  background: url(../images/logo.png) no-repeat left top;
+  float: left;
+  width: 187px;
+  height: 53px;
+  display: inline-block;
+}
+
+.x_center .container .head p {
+  float: right;
+  padding: 30px 10px 0 0;
+  font-size: 10px;
+}
+
+.x_center .container .head p a {
+  color: #333;
+}
+
+.x_center .container .login {
+  margin: 50px 0 10px;
+}
+
+.x_center .container .login .log_t h3 {
+  font-size: 22px;
+  color: #979797;
+  font-weight: bolder;
+  text-align: left;
+  height: 25px;
+  float: right;
+  margin: 0 100px 0 0;
+  width: 400px;
+  position: relative;
+}
+
+.x_center .container .login .log_l {
+  margin-left: 175px;
+}
+
+.x_center .container .login .log_r {
+  width: 400px;
+  border: 1px solid #D1D1D1;
+  background-color: #fff;
+  float: right;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  margin-right: 100px;
+  height: 400px;
+}
+
+.x_center .container .login .log_r .form ul li {
+  float: left;
+  width: 50%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  background: #F5F5F5;
+}
+
+.x_center .container .login .log_r .form ul li:first-child {
+  background: #B42025;
+  color: #fff;
+}
+
+.x_center .container .login .log_r .form input {
+  width: 361px;
+  height: 45px;
+  border: 1px solid #ccc;
+  margin: 20px 0 10px 20px;
+}
+
+.x_center .container .login .log_r .form .forget a {
+  line-height: 30px;
+  display: inline;
+  color: #b42025;
+  font-size: 14px;
+  font-weight: bolder;
+  float: right;
+}
+
+.active_li {
+  background: #B42025;
+}
+
+.btn_log {
+  display: inline-block;
+  width: 361px;
+  height: 45px;
+  background: #B42025;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.line {
+  border-bottom: 1px dashed #ccc;
+  height: 40px;
+  width: 400px;
+}
+
+.glup {
+  margin: 20px 0 0 18px;
+}
+
+.glup p {
+  color: #979797;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.glup ul li {
+  float: left;
+  padding-left: 8px;
+}
+
+.glup ul li a {
+  background: url(../images/logos.jpg) no-repeat;
+  display: block;
+  width: 33px;
+  height: 33px;
+}
+
+.glup ul li .tow {
+  background: url(../images/logos.jpg) no-repeat -148px 0;
+}
+
+.glup ul li .three {
+  background: url(../images/logos.jpg) no-repeat -48px 0;
+}
+
+.glup ul li .fore {
+  background: url(../images/logos.jpg) no-repeat -190px 0;
+}
+
+.glup ul li .five {
+  background: url(../images/logos.jpg) no-repeat -226px 0;
+}
+
+.glup ul li .six {
+  background: url(../images/logos.jpg) no-repeat -93px 0;
+}
+
+.forget:hover a {
+  text-decoration: underline;
+}
+
+.btn_log:hover {
+  font-weight: bold;
+}

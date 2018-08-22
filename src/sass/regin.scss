@@ -1,4 +1,4 @@
-.x_center{
+.xx_center{
     .container{
          border-bottom:1px solid #333;
         .head{
@@ -12,33 +12,27 @@
                 display:inline-block;
                 
             }
-            p{
-                float:right;
-                padding:30px 10px 0 0 ;
-                font-size:10px;
-                
-                a{
-                    color:#333;
-                }
-            }
+            
+           
         }
 
 
-        .login{
-            margin:50px 0 10px;
+        .regin{
+                margin:40px 0 10px;
+            
             .log_t{
-             
+               
                 h3{
                 font-size: 22px;
                 color: #979797;
-                font-weight: bolder;
                 text-align: left;
                 height: 25px;
                 float: right;
                 margin: 0 100px 0 0;
                 width: 400px;
                 position: relative;
-
+                padding-bottom:10px;
+                 border-bottom:2px solid #B81E20;
                 }
                
             }
@@ -46,16 +40,16 @@
                 margin-left:175px;
             }
             .log_r{
-                width: 400px;
-                border: 1px solid #D1D1D1;
+                width: 415px;
+                
                 background-color: #fff;
-                float: right;
+                float:right;
                 margin-top: 18px;
                 margin-bottom: 20px;
              
                 margin-right: 100px; 
                
-                height:400px;
+                
               
                 .form{
                     ul{
@@ -74,23 +68,43 @@
                             color:#fff;
                         }
                     }
-                    input{
-                        width:361px;
+                    div{
+                        margin:20px 0 10px 20px;
+                        position:relative;
+                        input{
+                        width:415px;
                         height:45px;
                         border:1px solid #ccc;
-                        margin:20px 0 10px 20px;
-                    }
-                    .forget{
-                        a{
-                            line-height: 30px;
-                            display: inline;
-                            color: #b42025;
-                            font-size: 14px;
-                            font-weight: bolder;
-                            float:right;
+                        
                         }
+                        #code{
+                            width:262px;
+                            height:45px;
+                        }
+                        #codes{
+                            width:120px;
+                            height:45px;
+                            margin-left:5px;
+                            border:1px solid #ccc;
+                            position:absolute;  
+                            text-align: center;
+                            line-height: 45px;
+                            font-size:20px;
+                            
+                        }
+                        #phone{
+                             width:262px;
+                            height:45px;
+                        }
+                        #btn_info{
+                             width:120px;
+                            height:45px;
+                            position:absolute;
+                            background:#ccc;
+                            margin-left:5px;
+                        }
+                    
                     }
-
 
                 }
             }
@@ -103,11 +117,11 @@
 }
 .btn_log{
         display:inline-block;
-        width:361px;
+        width:415px;
         height:45px;
-        background:#B42025;
+        background:#9A9A9A;
         margin-left:20px;
-        font-size:20px;
+        font-size:16px;
         color:#fff;
 }
 .line{
@@ -153,9 +167,17 @@
     }
 }
 
-.forget:hover a{
-    text-decoration:underline;
-}
+
 .btn_log:hover{
-    font-weight:bold;
+     text-decoration:underline;
+}
+.che{
+    margin-left:20px;
+    font-size:12px;
+    margin-left:20px;
+    margin-top:15px;
+    margin-bottom:10px;
+    span{
+        color:#B52024;
+    }
 }

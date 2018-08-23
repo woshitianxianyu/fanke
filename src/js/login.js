@@ -17,8 +17,8 @@ jQuery(function($){
             },
             success:function(res){
                 if(res === 'ok'){
-                   // location.href = '../index.html';
-                   alert('secees')
+                   location.href = '../index.html';
+                
                 }else{
                     alert("用户名或者密码错误！");
                 }

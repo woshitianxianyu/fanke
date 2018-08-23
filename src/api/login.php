@@ -7,20 +7,22 @@
 
 
         //判断数据库中是否存在相同用户和密码
-        $sql = "select * from login where username='{$username}' and password='{$password}'";
+        $sql = "select * from login where username='$username' and password='$password'";
 
         //执行sql语句
         $result = $conn->query($sql);
 
-        $row = mysqli_fetch_array($result);
-       
-        
-
-        //判断用户名和密码是否正确
-        if($username===$row['username'] && $password===$row['password']){
-            echo 'ok';
+        if($result->num_rows>0){
+            echo "ok";
         }else{
-            echo 'error';
+            echo "fail";
         }
+
+        // //判断用户名和密码是否正确
+        // if($username===$row['username'] && $password===$row['password']){
+        //     echo 'ok';
+        // }else{
+        //     echo 'error';
+        // }
 
 ?>

@@ -233,6 +233,7 @@ s, i, em {
   border: 1px solid #ccc;
   border-top: 0 none;
   z-index: 1;
+  display: none;
 }
 
 #top .container .nav .tab li ul li {

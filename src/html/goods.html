@@ -5,6 +5,11 @@
     <title>详情页</title>
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
     <link rel="stylesheet" type="text/css" href="../css/goods.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/jquery-lxzoom/jquery.lxzoom.css" />
+    <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+    
+    <script type="text/javascript" src="../lib/jquery-lxzoom/jquery.lxzoom.js"></script>
+    <script type="text/javascript" src="../js/goods.js"></script>
 </head>
 <body>
     <div id="top">
@@ -24,7 +29,7 @@
                 <div class="seach">
                     <input type="text" class="txt" />
                     <button class="btn_search">搜索</button>
-                    <button class="btn_car"><i></i>购物车<span>(0)</span></button>
+                    <button class="btn_car"><i></i>购物车<span class="cont">(0)</span></button>
                 </div>
                 <ul>
                     <li><a href="#">热门搜索:</a></li>
@@ -205,11 +210,11 @@
 
             <div class="shopbox clearfix">
                 <ul class="imgmin fl">
-                    <li></li>
-                    <li></li>
+                    <li><img src="" width="46" height="62" /></li>
+                    
                 </ul>
                 <div class="fl imgmax">
-                    <img src="../images/zoommax-01.jpg"  alt="" />
+                    <img src="" height="400" width="400"   />
                 </div>
 
                 <div class="goodsinfo  fl">
@@ -286,9 +291,230 @@
     
     <div class="shangpin">
         <div class="container">
-            
+            <div class="xq">
+                <p>详情图片:</p>
+                <p>注：商品实际颜色以静物图为准</p>
+            </div>
+            <div>
+                <img src="../images/goudao.jpg" height="101" width="1200" alt="" />
+                <img src="../images/zhinan.jpg" height="560" width="1200" alt="" />
+                <img src="../images/renti.jpg" height="589" width="1200" alt="" />
+                <img src="../images/chanpin.jpg" height="658" width="1200" alt="" />
+                 <img src="../images/xidi.jpg" height="260" width="1200"  alt="" />
+                 <img src="../images/wenzi.jpg" height="420" width="1200" alt="" />
+            </div>
+             <div class="pinlu clearfix">
+                    <div class="p_l fl">
+                        <h2>
+                            推荐产品
+                        </h2>
+                        <ul class="fl">
+                                <li>
+                                    <img src="../images/11 (1).jpg"  height="162" width="162" alt="" />
+                                    <p>MA1飞行夹克 双面穿 薄棉 C9 军绿色</p>
+                                    <p>售价￥198</p>        
+                                </li>
+                                <li>
+                                    <img src="../images/11 (2).jpg"  alt="" height="162" width="162" />
+                                    <p>凡客卫衣 圆领 熊本熊 S2 浅花灰</p>
+                                    <p>售价￥198</p>  
+                                </li>
+                                <li>
+                                <img src="../images/11 (3).jpg" height="162" width="162"  alt="" />
+                                    <p>凡客衬衫 牛津纺  男款 天蓝色</p>
+                                    <p>售价￥198</p>  
+                                </li>
+                                <li>
+                                <img src="../images/11 (4).jpg"  height="162" width="162" alt="" />
+                                    <p>水柔棉 2018春夏新款 圆领T 男款 黑色</p>
+                                    <p>售价￥198</p>  
+                                </li>
+                                <li>
+                                <img src="../images/11 (5).jpg" height="162" width="162" alt="" />
+                                    <p>
+                                        凡客帆布鞋 女款 白色
+                                    </p>
+                                    <p>售价￥198</p>  
+                                </li>
+                           
+                        </ul>
+                    </div>
+                    <div class="p_r fl">
+                        <h2>
+                            <span>最新评论(3)</span>
+                            <input type="radio" />全部图片
+                            <input type="radio" />图片
+                            <span >(0)</span>
+
+                            <div class="last">
+                                <button>我要评论</button>
+                            </div>
+                            </h2>
+                            <div class="babox clearfix">
+                                <div class="pingjia fl clearfix">
+                                <div class="fl left">
+                                    <p>还可以，不皱，穿着凉快</p>
+                                    <span>2018-08-11</span>
+                                </div>
+                                <div class="fr right">
+                                    <span>颜色:咖白条</span>
+                                    <span>尺码:M</span>
+                                    <span>身高:0cm</span>
+                                    <span>体重:0.0kg</span>
+                                    <span>尺码合适</span>
+                                </div>
+
+                                
+                            </div>
+                                 <div class="fr cc">
+                                    <p>**n</p>
+                                    <p><img src="../images/vip.png" height="15" width="43" alt="" /></p>
+                                </div>
+                               
+                            </div>
+                            <div class="babox clearfix">
+                                <div class="pingjia fl clearfix">
+                                <div class="fl left">
+                                    <p>还可以，不皱，穿着凉快</p>
+                                    <span>2018-08-11</span>
+                                </div>
+                                <div class="fr right">
+                                    <span>颜色:咖白条</span>
+                                    <span>尺码:M</span>
+                                    <span>身高:0cm</span>
+                                    <span>体重:0.0kg</span>
+                                    <span>尺码合适</span>
+                                </div>
+
+                                
+                            </div>
+                                 <div class="fr cc">
+                                    <p>**n</p>
+                                    <p><img src="../images/vip.png" height="15" width="43" alt="" /></p>
+                                </div>
+                               
+                            </div>
+                            <div class="babox clearfix">
+                                <div class="pingjia fl clearfix">
+                                <div class="fl left">
+                                    <p>还可以，不皱，穿着凉快</p>
+                                    <span>2018-08-11</span>
+                                </div>
+                                <div class="fr right">
+                                    <span>颜色:咖白条</span>
+                                    <span>尺码:M</span>
+                                    <span>身高:0cm</span>
+                                    <span>体重:0.0kg</span>
+                                    <span>尺码合适</span>
+                                </div>
+
+                                
+                            </div>
+                                 <div class="fr cc">
+                                    <p>**n</p>
+                                    <p><img src="../images/vip.png" height="15" width="43" alt="" /></p>
+                                </div>
+                               
+                            </div>
+                            <div class="babox clearfix">
+                                <div class="pingjia fl clearfix">
+                                <div class="fl left">
+                                    <p>还可以，不皱，穿着凉快</p>
+                                    <span>2018-08-11</span>
+                                </div>
+                                <div class="fr right">
+                                    <span>颜色:咖白条</span>
+                                    <span>尺码:M</span>
+                                    <span>身高:0cm</span>
+                                    <span>体重:0.0kg</span>
+                                    <span>尺码合适</span>
+                                </div>
+
+                                
+                            </div>
+                                 <div class="fr cc">
+                                    <p>**n</p>
+                                    <p><img src="../images/vip.png" height="15" width="43" alt="" /></p>
+                                </div>
+                               
+                            </div>
+                            <div class="babox clearfix">
+                                <div class="pingjia fl clearfix">
+                                <div class="fl left">
+                                    <p>还可以，不皱，穿着凉快</p>
+                                    <span>2018-08-11</span>
+                                </div>
+                                <div class="fr right">
+                                    <span>颜色:咖白条</span>
+                                    <span>尺码:M</span>
+                                    <span>身高:0cm</span>
+                                    <span>体重:0.0kg</span>
+                                    <span>尺码合适</span>
+                                </div>
+
+                                
+                            </div>
+                                 <div class="fr cc">
+                                    <p>**n</p>
+                                    <p><img src="../images/vip.png" height="15" width="43" alt="" /></p>
+                                </div>
+                               
+                            </div>
+
+
+                            <h2>
+                            <span>最新提问(共1条)</span>
+
+                                <div class="last">
+                                    <button >我要提问</button>
+                                </div>
+                            </h2>
+
+                            <div class="why">
+                                <ul class="clearfix">
+                                    <li class="clearfix">
+                                        <p class="fl">
+                                        <i><img src="../images/q.png" height="19" width="17" alt="" /></i>
+
+
+                    为什么这个标准版的，和另外几款修身版的尺寸都是一样的，我对比了一下页面介绍的尺寸，连腰围都是一样的
+
+                                        </p>
+
+                                        <p class="fr">
+                                            
+                        <span>2018-08-21</span>  
+                        <span> 我要回复</span>
+                                        </p>
+                                    </li>
+                                    <li class="clearfix">
+                                        <p class="fl">
+                                        <i><img src="../images/a.png" height="19" width="17" alt="" /></i>
+
+
+                    为什么这个标准版的，和另外几款修身版的尺寸都是一样的，我对比了一下页面介绍的尺寸，连腰围都是一样的
+
+                                        </p>
+
+                                        <p class="fr">
+                                            
+                        <span>2018-08-21</span>  
+                        <span> 我要回复</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                           
+
+                            
+
+                        
+                    </div>
+            </div>
         </div>
-    </div>
+                
+        </div>
+
 
     <div class="links">
         <div class="container">
@@ -341,5 +567,55 @@
         </div>
     </div>
     
+    <div class="addcar clearfix">
+        <h4 class="head">
+            成功放入购物车
+            <span class="del">&times;</span>
+        </h4>
+        <div class="addcar_b clearfix">
+            <div class="box_car fl">
+                <img src="../images/addcar.png" height="75" width="84" alt="" />
+            </div>
+            <div class="line fl"></div>
+             <div class="azz fl">
+                    <p>共有7件商品</p>
+                    <p>总共：￥<span>809.00</span></p>
+            </div>
+            <div class="btn_gou">
+                <button class="jix">继续购物</button>
+                <button class="goto_car">去购物车</button>
+            </div>
+        </div>
+        <h3>
+            推荐产品
+        </h3>
+        <ul class="vvv">
+            <li>
+                <img src="../images/g-01.png" height="71" width="74" alt="" />
+                <p>MA1飞行夹克 双面穿 薄棉 C9 军绿色</p>
+                <p>售价：338</p>
+            </li>
+            <li>
+                <img src="../images/g-02.png" height="71" width="74" alt="" />
+                <p>凡客卫衣 圆领 熊本熊 S2 浅花灰</p>
+                <p>售价：198</p>
+            </li>
+            <li>
+                <img src="../images/g-03.png" height="71" width="74" alt="" />
+                <p>凡客衬衫 牛津纺  男款 天蓝色</p>
+                <p>售价：238</p>
+            </li>
+            <li>
+               <img src="../images/g-04.png" height="71" width="74" alt="" />
+                <p>水柔棉 2018春夏新款 圆领T 男款 黑色</p>
+                <p>售价：198</p>
+            </li>
+            <li>
+                <img src="../images/g-05.png" height="71" width="74" alt="" />
+                <p>凡客帆布鞋 女款 白色</p>
+                <p>售价：198</p>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>

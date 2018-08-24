@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../css/goods.css" />
     <link rel="stylesheet" type="text/css" href="../lib/jquery-lxzoom/jquery.lxzoom.css" />
     <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
     
     <script type="text/javascript" src="../lib/jquery-lxzoom/jquery.lxzoom.js"></script>
     <script type="text/javascript" src="../js/goods.js"></script>
@@ -29,8 +30,26 @@
                 <div class="seach">
                     <input type="text" class="txt" />
                     <button class="btn_search">搜索</button>
-                    <button class="btn_car"><i></i>购物车<span class="cont">(0)</span></button>
+                    <button class="btn_car"><i></i>购物车<span class="cont">(0)</span>
+                    <div class="car clearfix">
+                        <h4 class="along">最近加入的商品</h4>
+                        <ul class="car_log clearfix">
+                           <!--  <li>
+                            <img src="../images/cs-04.jpg" height="50"  alt="" />
+                                <p>村衫 法兰绒 领尖扣 男款 </p>
+                                <span>￥172 <span>&times;</span><span class="number"></span></span>
+                               <a>删除</a>
+                            </li> -->
+                        </ul>
+                       <!--  <div class="sing">
+                            <p class="fl">共计(未计算促销价格)</p>
+                            <p class="fl">￥<span class="tol"></span></p>
+                           <span>查看购物车</span>
+                        </div> -->
+                    </div>
                 </div>
+                    </button>
+
                 <ul>
                     <li><a href="#">热门搜索:</a></li>
                     <li><a href="#">免烫衬衫</a></li>
@@ -578,8 +597,8 @@
             </div>
             <div class="line fl"></div>
              <div class="azz fl">
-                    <p>共有7件商品</p>
-                    <p>总共：￥<span>809.00</span></p>
+                    <p>共有<span class="num"></span>件商品</p>
+                    <p>总共：￥<span class="tal"></span></p>
             </div>
             <div class="btn_gou">
                 <button class="jix">继续购物</button>

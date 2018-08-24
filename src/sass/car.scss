@@ -1,0 +1,118 @@
+ .header .container{
+            padding-bottom:40px;
+            border-bottom:1px solid #ccc;
+            .logo{
+               
+                float:left;
+                width:187px;
+                height:53px;
+                display:inline-block;
+                
+            }
+          .fon{
+            padding:30px 30px 0 0 ;
+              p{
+                float:right;
+                
+                font-size:10px;
+               
+            }
+
+        }
+}
+
+.car{
+    padding-left:20px;
+    padding-top:20px;
+    .container{
+        .location{
+
+            span{
+                display:inline-block;
+                width:170px;
+                height:28px;
+                font-size:16px;
+                background:#EEEEEE;
+
+                
+            }
+            .act{
+                 background:#B80000;
+                 color:#fff;
+                 }
+        }
+        .mycar{
+            margin:10px 0;
+            span{
+                font-size:20px;
+                font-weight:bold;
+
+            }
+        }
+
+        .tip{
+                font-size:12px;
+                color:#656565;
+            
+                line-height: 20px;   
+        }
+        .datalist{
+            border:1px solid #ccc;
+            border-collapse:collapse;
+            font-size:10px;
+            width:100%;
+            thead{
+                background-color:#EFF0F0;
+                height:35px; 
+                line-height: 35px;
+
+            }
+             tr{
+                border-bottom:1px solid #ddd;padding-bottom: 20px;
+                text-align: center;
+            }
+            button{
+                padding:5px 8px;
+            }
+            .qty{
+                padding:0 5px;
+            }
+
+
+        }
+        .dibu{
+            height:117px;
+            background:#FFFEF5;
+            font-size:15px;
+            line-height: 35px;
+            border:1px solid #FFFEF5;
+
+            .ccc{
+                color:#AB0000;
+            }
+            .total{
+                font-size:30px;
+                color:#A10000;
+            }
+
+            .agin{
+                width:123px;
+                height:37px;
+                border-radius: 5px ;
+                margin-right:20px;
+
+
+            }
+            .resule{
+                width:167px;
+                height:51px;
+                font-size:20px;
+                color:#fff;
+                background:#C00B0B;
+                margin-bottom:20px;
+                border-radius: 5px ;
+
+            }
+        }
+    }
+}

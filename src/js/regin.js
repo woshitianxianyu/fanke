@@ -1,4 +1,6 @@
-document.addEventListener('DOMContentLoaded', function(){
+jQuery(function($){
+
+
 
     var vcode = document.querySelector('#codes');
     var code  = document.querySelector('#code');
@@ -32,16 +34,55 @@ document.addEventListener('DOMContentLoaded', function(){
             if(_code1!==_code2){
                 alert('验证码错误');
                 return false;
-            }else{
-                alert('ok')
             }
 
-            
-            
-            //刷新验证码
-            randomCode();
+                   //验证手机号
+             var phone = document.getElementById('phone').value;
+          
+             
+            if(!/^1[3-9]\d{9}$/.test(phone)){
+                alert('手机号不合法');
+                return false;
+            }
+
+            var paw = document.querySelector('#password').value;
+            var psw = document.querySelector('#psw').value;
+
+            if(paw !== psw){
+                alert('密码输入有误！');
+            }
+
+
+            var phone = $('#phone').val();
+            var psw = $('#psw').val();
+            //ajax发送请求
+            console.log(psw);
+
+
+            $.ajax({
+                url:'../api/regin.php',
+                type:'post',
+                data:{
+                    username:phone,
+                    password:psw
+                },
+                success:function(res){
+                    console.log(res)
+                }
+            })
+
+
+
+
+
+
+
+                //刷新验证码
+                randomCode();
 
         }
+
+       
 
 
 
@@ -56,7 +97,8 @@ document.addEventListener('DOMContentLoaded', function(){
                 }
 
             }
-
-
+     
 
 })
+
+

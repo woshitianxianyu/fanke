@@ -393,6 +393,10 @@ body {
   font-size: 14px;
 }
 
+.addcar .addcar_b .azz p span {
+  color: #B81B22;
+}
+
 .addcar .addcar_b .btn_gou {
   margin-top: 20px;
   margin-right: 3px;

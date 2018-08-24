@@ -261,6 +261,16 @@ jQuery(function($){
                                    
                                 }
                         }
+
+
+                        $('.shirt_q li img').on('mouseover',function(){
+
+                            $(this).animate({}, 1000);
+                        })
+
+
+
+
                     }
                 })
 

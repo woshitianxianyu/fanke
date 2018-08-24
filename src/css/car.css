@@ -1,0 +1,114 @@
+.header .container {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.header .container .logo {
+  float: left;
+  width: 187px;
+  height: 53px;
+  display: inline-block;
+}
+
+.header .container .fon {
+  padding: 30px 30px 0 0;
+}
+
+.header .container .fon p {
+  float: right;
+  font-size: 10px;
+}
+
+.car {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.car .container .location span {
+  display: inline-block;
+  width: 170px;
+  height: 28px;
+  font-size: 16px;
+  background: #EEEEEE;
+}
+
+.car .container .location .act {
+  background: #B80000;
+  color: #fff;
+}
+
+.car .container .mycar {
+  margin: 10px 0;
+}
+
+.car .container .mycar span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.car .container .tip {
+  font-size: 12px;
+  color: #656565;
+  line-height: 20px;
+}
+
+.car .container .datalist {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  font-size: 10px;
+  width: 100%;
+}
+
+.car .container .datalist thead {
+  background-color: #EFF0F0;
+  height: 35px;
+  line-height: 35px;
+}
+
+.car .container .datalist tr {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.car .container .datalist button {
+  padding: 5px 8px;
+}
+
+.car .container .datalist .qty {
+  padding: 0 5px;
+}
+
+.car .container .dibu {
+  height: 117px;
+  background: #FFFEF5;
+  font-size: 15px;
+  line-height: 35px;
+  border: 1px solid #FFFEF5;
+}
+
+.car .container .dibu .ccc {
+  color: #AB0000;
+}
+
+.car .container .dibu .total {
+  font-size: 30px;
+  color: #A10000;
+}
+
+.car .container .dibu .agin {
+  width: 123px;
+  height: 37px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.car .container .dibu .resule {
+  width: 167px;
+  height: 51px;
+  font-size: 20px;
+  color: #fff;
+  background: #C00B0B;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}

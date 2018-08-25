@@ -67,18 +67,18 @@ jQuery(function($){
                     password:psw
                 },
                 success:function(res){
-                    console.log(res)
+                    if(res === 'success'){
+                        alert(注册成功);
+                    }
                 }
             })
 
-
-
-
-
-
-
                 //刷新验证码
                 randomCode();
+                //清空电话号码
+              
+                $('#phone').val(""); 
+                alert('注册成功！')
 
         }
 
@@ -97,6 +97,32 @@ jQuery(function($){
                 }
 
             }
+
+
+                //获得焦点focus，blur失去焦点
+              var phone = $('#phone');
+              phone.blur(function(){
+                    
+                var _phone = phone.val();
+
+                $.ajax({
+                    url:'../api/isreg.php',
+                    data:{
+                        username:_phone
+                    },
+                    success:function(res){
+                        if(res === 'no'){
+                            alert('用户名已经存在！');
+                        }
+                    }
+                })
+
+
+
+            })
+
+
+
      
 
 })

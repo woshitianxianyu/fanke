@@ -170,7 +170,7 @@
 
 .xia_main ul li {
   float: left;
-  padding-right: 20px;
+  padding-right: 15px;
 }
 
 .xia_main ul li p {
@@ -187,6 +187,10 @@
   color: #A10000;
 }
 
+.xia_main ul li li:last-child {
+  padding-right: 0;
+}
+
 .jingpin .container .jp_title {
   text-align: center;
   color: #808080;
@@ -199,7 +203,7 @@
 
 .jingpin .container ul li {
   float: left;
-  margin: 0 22px 28px 0;
+  margin: 0 15px 28px 0;
   display: inline;
 }
 

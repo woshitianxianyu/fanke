@@ -10,6 +10,10 @@ jQuery(function($){
 
 
 
+            
+
+
+
             var $shirt =  $('.shirt');
             var _type = 1;
             $.ajax({

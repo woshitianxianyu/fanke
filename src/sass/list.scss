@@ -1,0 +1,125 @@
+.listbox{
+    .container{
+        .toubu{
+
+            font-size:10px;
+            margin-bottom:10px;
+            .weizi{
+                float:right;
+            }
+        }
+
+            .dd{
+                margin-bottom:10px;
+                height:36px;
+                 font-size:14px;
+                border:1px solid #ccc;
+                .fu{
+               width:68px;
+               height:36px;
+               line-height: 36px;
+               border-right:1px solid #ccc;
+               text-align: center; 
+            }
+            .nan{
+                line-height: 36px;
+
+            }
+        }
+        .fenye{
+            button{
+                background:#B81C22;
+                width:87px;
+                height:34px;
+                color:#fff;
+
+            }
+        }
+
+        .paixu{
+
+            ul{
+                border:1px solid #ccc;
+                li{
+                    float:left;
+                    border-right:1px solid #ccc;
+                    padding:10px 10px ;
+                }
+            }
+            .hebing{
+                background:#B81C22;
+                width:87px;
+                height:34px;
+                color:#fff;
+                display:block;
+            }
+        }
+        .tt{
+            margin-top:10px;
+            margin-left:10px;
+            ul{
+                li{
+                    // float:left;
+                    width:230px;
+                    display:inline-block;
+                    margin-right:15px;
+                    margin-bottom:10px;
+                    text-align: center;
+                    font-size:12px;
+                    color:#727171;
+                    padding:0 20px;
+                    position:relative;
+                .price{
+                    color:#C51C22;
+                    } 
+                }
+            }
+            .tr{
+                width:50px;
+                height:50px;
+                border-radius:50%;
+                background:#A10000;
+                position:absolute;
+                bottom:30px;
+                right:10px;
+                color:#fff;
+                font-size:16px;
+
+            }
+
+        }
+
+        .fen{
+            padding-left:800px;
+           
+            height:26px;
+            margin-bottom:20px;
+            line-height:20px;
+            .ff{
+                float:left;
+                font-size:12px;
+                .kk{
+                    width:70px;
+                    height:20px;
+                    border:1px solid #ccc;
+                    i{
+                        background:url(../images/jj.png) left center;
+                        display:inline-block;
+                        width:6px;
+                        height:11px;
+                    }
+                    .one{
+                        display:inline-block;
+                        width:25px;
+                        height:25px;
+                        border:1px solid #ccc;
+                        text-align: center;
+                        line-height: 25px;
+                        margin-left:5px;
+                    }
+
+                }   
+            }
+        }
+    }
+}

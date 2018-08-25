@@ -107,8 +107,8 @@
         if(number.value < 0){
             number.value = 0;
         }
-        num.innerHTML =  number.value;
-        tal.innerHTML = goods.sale * number.value;
+        // num.innerHTML =  number.value;
+        // tal.innerHTML = goods.sale * number.value;
     }   
 
 
@@ -195,14 +195,16 @@
 
 
                   var total = 0;
-               
+        
             var  cart_total = document.querySelector('.tol');
             var cont = document.querySelector('.cont')
             for(var i=0;i<goodslist.length;i++){        
                 total += goodslist[i].sale * goodslist[i].qty;
                 cont.innerHTML = i+1;
+                num.innerHTML=i+1;
             }
                 cart_total.innerHTML =   total;
+                tal.innerHTML = total;
            }
 
 
@@ -240,6 +242,15 @@
 
 
 
+             //jq跳转的方法
+             /*
+                     $(location).attr('href', '//www.jb51.net');
+                    $(window).attr('location','//www.jb51.net');
+                    $(location).prop('href', '//www.jb51.net')
+              */
+              $('.goto_car').click(function(){
+                    $(location).attr('href', 'car.html');
+              })
 
 
 

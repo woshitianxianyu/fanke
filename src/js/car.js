@@ -175,8 +175,11 @@ jQuery(function($){
         $('#all').click(function(){
             checkbox.prop('checked',this.checked);
 
-            $trs[this.checked?'addClass':'removeClass']('selected');
+            trs[this.checked?'addClass':'removeClass']('selected');
         })
+
+
+       
 
 
 })

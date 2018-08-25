@@ -24,9 +24,9 @@
         print_r($result);
 
         if($result){
-            echo "reg success";
+            echo "success";
         }else{
-            echo "reg false";
+            echo "false";
         }
 
 

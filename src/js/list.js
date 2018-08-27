@@ -38,16 +38,17 @@ jQuery(function($){
             for(let i=0; i<img.length;i++){
                             img[i].onclick = function(event){
                                 var params = '';
-                                var goods = data[i];
-                                console.log(data)
+                                var goods = data[id];
+                                console.log(goo)
                                 for(var key in goods){
                                     params += key + '=' + goods[key] +'&';
                                     console.log(params);
 
                                 }
                                 params = params.slice(0,-1);
-                                location.href = 'goods.html?' +
-                                params;
+
+                                location.href = 'goods.html?' + params;
+                               
                                
                             }
 

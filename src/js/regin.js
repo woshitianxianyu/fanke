@@ -58,6 +58,9 @@ jQuery(function($){
             //ajax发送请求
             console.log(psw);
 
+            if($('.zuce').css('display')=== 'block'){
+                return false;
+            }
 
             $.ajax({
                 url:'../api/regin.php',
@@ -112,7 +115,10 @@ jQuery(function($){
                     },
                     success:function(res){
                         if(res === 'no'){
-                            alert('用户名已经存在！');
+                            $('.zuce').css({display:'block'});
+                            // alert('no');
+                        }else{
+                            $('.zuce').css({display:'none'});
                         }
                     }
                 })
